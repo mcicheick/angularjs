@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="announces">
+        <div ng-repeat="announce in announces" id="announce-{{announce.id}}" class="media">
+            <a href="#/announces/{{announce.id}}">
+                <div class="media-left">
+                    <img class="media-object"
+                         ng-src="{{announce.cover[0].url}}"/>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">{{announce.title}}</h4>
+                    <p>{{announce.description}}</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

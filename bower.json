@@ -1,0 +1,17 @@
+{
+  "name": "ikasugu-v2-web",
+  "description": "A starter project for AngularJS",
+  "version": "1.0.1",
+  "homepage": "http://ikasugu.shinitech.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.6",
+    "angular-route": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-animate": "1.5.x"
+  }
+}
